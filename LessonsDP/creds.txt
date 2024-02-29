@@ -1,0 +1,13 @@
+Доступы для проверки.
+login password
+Администратор:
+Admin Admin
+Студенты:
+student0 student0student0 (Доступны курсы 1 и 3)
+student4 student4student4 (Доступен курс 2)
+
+ссылки:
+http://127.0.0.1:8000 - авторизация пользователя
+http://127.0.0.1:8000/admin - админка
+http://127.0.0.1:8000/api/availableproducts/?format=json - доступные для покупки курсы (которые еще не начались)
+http://127.0.0.1:8000/api/availablelessons/?format=json - доступные авторизованному пользователю уроки по продуктам
